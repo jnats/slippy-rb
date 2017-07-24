@@ -63,4 +63,16 @@ bot.command(:d6, description: "Rolls a six-sided die.") do |event|
   event.respond "[🎲]The die reads **#{die}**."
 end
 
+##coinflip
+bot.command(:coinflip, description: "Flips a coin") do |event|
+  coin = rand(1 .. 2)
+  if coin==1
+    event.respond "[🙂]The coin landed on **heads**!"
+  else
+  if coin==2
+    event.respond "[🐈] The coin landed on **tails**!"
+    end
+  end
+end
+
 bot.run
