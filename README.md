@@ -1,6 +1,6 @@
 # slippy-rb
 Short, Open-Source, Easy-to-Manage Discord bot made with Discord.rb
 # requires
-gem install bundle, 
+_gem install bundle,_ 
 
-then do bundle install in the bot's directory
+then do _bundle install_ in the bot's directory
